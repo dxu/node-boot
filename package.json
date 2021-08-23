@@ -1,0 +1,27 @@
+{
+  "name": "boot-node",
+  "version": "1.0.0",
+  "description": "all aboot node",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxu/node-boot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxu/node-boot/issues"
+  },
+  "homepage": "https://github.com/dxu/node-boot#readme"
+}
